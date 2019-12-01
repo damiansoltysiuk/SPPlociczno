@@ -1,2 +1,4 @@
 # SPPlociczno
-Projekty do wykonania przez uczniów zgodnie z zaleceniami nauczyciela
+Full desription in wiki.
+
+Project 1. Hand_dryer
