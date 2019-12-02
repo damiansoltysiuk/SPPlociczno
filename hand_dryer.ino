@@ -3,7 +3,6 @@
 #define reyalModule 8
 #define ledR 6
 #define ledG 5
-#define ledB 3
 
 void setup() {
   Serial.begin(9600);
@@ -12,8 +11,6 @@ void setup() {
   pinMode(reyalModule, OUTPUT);
   pinMode(ledR, OUTPUT);
   pinMode(ledG, OUTPUT);
-  pinMode(ledB, OUTPUT);
-
 }
 
 void loop() {
@@ -44,12 +41,10 @@ void controlON() {
   digitalWrite(reyalModule, LOW);
   digitalWrite(ledR, HIGH);
   digitalWrite(ledG, LOW);
-  digitalWrite(ledR, HIGH);
 }
 
 void controlOFF() {
   digitalWrite(reyalModule, HIGH);
   digitalWrite(ledR, LOW);
   digitalWrite(ledG, HIGH);
-  digitalWrite(ledR, HIGH);
 }
